@@ -25,9 +25,9 @@ export function Header() {
         id="header"
       >
         <nav className="nav container">
-          <a href="#" className="nav__logo">
+          <a href="#" className="nav__logo nav__link">
             <img src={img1} alt="logo image" />
-            Gelatina de pata
+            Gelatina de patanav__link
           </a>
 
           <div

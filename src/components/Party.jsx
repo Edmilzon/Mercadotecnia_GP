@@ -11,7 +11,7 @@ export function Party() {
                 Excelente para mejorar la salud de la piel
               </h2>
 
-              <p className="party__description">
+              <p className="party__description p">
                 La gelatina de pata es rica en colágeno, que es excelente para mejorar la salud de la piel, 
                 promoviendo su elasticidad y reduciendo la aparición de arrugas. Además, ayuda a fortalecer
                 las articulaciones al mejorar la flexibilidad y reducir el dolor en personas con problemas
@@ -87,6 +87,10 @@ const Container =styled.div`
         right: -1.5rem;
         bottom: 2rem;
         animation: animate-star-2 5s infinite ease-in-out
+    }
+    
+    p {
+      color : black;
     }
 }
 `

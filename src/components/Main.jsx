@@ -23,7 +23,7 @@ export function Main() {
                 <img src={img1} alt="home image" className="home__title-img-2" />
               </h1>
 
-              <p className="home__description"> Alto contenido de colágeno</p>
+              <p className="home__description p"> Alto contenido de colágeno</p>
 
               <a href="#" className="button">
                 Visitar!!!
@@ -157,6 +157,10 @@ const Container = styled.div`
         transform: scale(1) rotate(15deg);
         opacity: 1;
       }
+    }
+
+    p {
+    color : black;
     }
   }
 `;

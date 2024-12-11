@@ -13,7 +13,7 @@ export function About() {
                 Gelatina de Pata
               </h2>
 
-              <p className="about__description">
+              <p className="about__description p">
                 Es un postre o alimento preparado a partir de colageno natural que se extrae al hervir 
                 las patas de ciertos animales. Este colageno, al enfriarse, se solidifica y forma una 
                 gelatina natural sin necesidad de usar agentes espesantes artificiales. 
@@ -67,6 +67,10 @@ const Container =styled.div`
     & .shape__big{
         bottom: 0;
         left: -8rem;
+    }
+
+    p {
+    color: black;
     }
 }
 `

@@ -128,7 +128,7 @@ export function Footer() {
           <img src={img3} alt="footer image" className="footer__tree-2" />
         </div>
 
-        <span className="footer__copy">&#169; Gelatina de Pata Page</span>
+        <span className="footer__copy">&#169; Ariel Edmilzon Luna Tudela</span>
       </footer>
     </Container>
   );
