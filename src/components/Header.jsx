@@ -27,7 +27,7 @@ export function Header() {
         <nav className="nav container">
           <a href="#" className="nav__logo nav__link">
             <img src={img1} alt="logo image" />
-            Gelatina de patana
+            Gelatina de pata
           </a>
 
           <div
