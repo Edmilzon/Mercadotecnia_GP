@@ -4,7 +4,7 @@ import { About } from "./About";
 import { Productos } from "./Productos";
 import { Party } from "./Party";
 import img1 from "../assets/img/png2Platocane.png";
-import img2 from "../assets/img/imagen1 gelatina.jpg";
+import img2 from "../assets/img/videoPublicitario.mp4";
 import img3 from "../assets/img/png5canelavaso.png";
 
 export function Main() {
@@ -30,7 +30,12 @@ export function Main() {
               </a>
             </div>
 
-            <img src={img2} alt="home image" className="home__img" />
+            <div className="home__video">
+              <video className="home__video-element" controls>
+                <source src={img2} type="video/mp4" />
+                Tu navegador no soporta el elemento de video.
+              </video>
+            </div>
 
             <img src={img1} alt="home image" className="home__tree-1" />
             <img src={img3} alt="home image" className="home__tree-2" />
@@ -49,6 +54,19 @@ export function Main() {
   );
 }
 const Container = styled.div`
+  .home__video {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .home__video-element {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+    }
   .home {
     position: relative;
 
